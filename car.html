@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxury Fleet Card Concepts</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+gold: { DEFAULT:'#D4AF37', light:'#F3E5AB', dark:'#AA8529' },
+black:'#0a0a0a',
+darkgray:'#171717',
+brandBlack:'#0f0f0f',
+surface:'#141414'
+},
+fontFamily: {
+serif:['Playfair Display','serif'],
+sans:['Inter','sans-serif']
+}
+}
+}
+}
+</script>
+
+<style>
+body { background-color:#050505; color:#fff; }
+.card-hover-effect { transition: all 0.4s ease; }
+.card-hover-effect:hover { transform: translateY(-5px); box-shadow:0 20px 40px -10px rgba(212,175,55,0.15); border-color:#D4AF37; }
+</style>
+
+</head>
+<body class="font-sans antialiased pb-20">
+
+<header class="text-center py-16 border-b border-white/5">
+<h4 class="text-gold tracking-[0.2em] text-sm uppercase mb-3">Fleet Showcase</h4>
+<h1 class="text-4xl md:text-5xl font-serif">Select Your Concept</h1>
+</header>
+
+<div class="max-w-7xl mx-auto px-6 mt-16 space-y-24">
+
+<section>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+<!-- CARD 1 -->
+<div class="bg-darkgray border border-white/10 rounded-2xl overflow-hidden card-hover-effect group relative">
+<div class="h-64 overflow-hidden relative">
+<img src="rolls-royce-ghost.png"
+class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+<div class="absolute top-4 right-4 bg-gold text-black text-xs font-bold px-3 py-1 rounded-full uppercase shadow-lg">
+Premium
+</div>
+</div>
+
+<div class="p-6">
+<h3 class="text-3xl font-serif mb-2 group-hover:text-gold transition">Rolls Royce Ghost</h3>
+<p class="text-gray-400 text-sm mb-6">The ultimate expression of executive luxury.</p>
+
+<div class="grid grid-cols-2 gap-4 mb-8 text-sm text-gray-300">
+<div>4 Passengers</div><div>Multi-Language</div>
+<div>4-Zone AC</div><div>2 Large Bags</div>
+<div>Automatic</div><div>Starlight Roof</div>
+</div>
+
+<button class="w-full bg-gold text-black font-semibold py-3 rounded-lg mb-3">Book Now</button>
+<button class="w-full border border-gold text-gold py-3 rounded-lg">WhatsApp</button>
+</div>
+</div>
+
+<!-- Duplicate Cards -->
+<div class="bg-darkgray border border-white/10 rounded-2xl overflow-hidden card-hover-effect group relative">
+<div class="h-64 overflow-hidden relative">
+<img src="rolls-royce-ghost.png"
+class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+<div class="absolute top-4 right-4 bg-gold text-black text-xs font-bold px-3 py-1 rounded-full uppercase shadow-lg">Premium</div>
+</div>
+<div class="p-6">
+<h3 class="text-3xl font-serif mb-2">Rolls Royce Ghost</h3>
+<p class="text-gray-400 text-sm mb-6">The ultimate expression of executive luxury.</p>
+<div class="grid grid-cols-2 gap-4 mb-8 text-sm text-gray-300">
+<div>4 Passengers</div><div>Multi-Language</div>
+<div>4-Zone AC</div><div>2 Large Bags</div>
+<div>Automatic</div><div>Starlight Roof</div>
+</div>
+<button class="w-full bg-gold text-black py-3 rounded-lg mb-3">Book Now</button>
+<button class="w-full border border-gold text-gold py-3 rounded-lg">WhatsApp</button>
+</div>
+</div>
+
+<div class="bg-darkgray border border-white/10 rounded-2xl overflow-hidden card-hover-effect group relative">
+<div class="h-64 overflow-hidden relative">
+<img src="rolls-royce-ghost.png"
+class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+<div class="absolute top-4 right-4 bg-gold text-black text-xs font-bold px-3 py-1 rounded-full uppercase shadow-lg">Premium</div>
+</div>
+<div class="p-6">
+<h3 class="text-3xl font-serif mb-2">Rolls Royce Ghost</h3>
+<p class="text-gray-400 text-sm mb-6">The ultimate expression of executive luxury.</p>
+<div class="grid grid-cols-2 gap-4 mb-8 text-sm text-gray-300">
+<div>4 Passengers</div><div>Multi-Language</div>
+<div>4-Zone AC</div><div>2 Large Bags</div>
+<div>Automatic</div><div>Starlight Roof</div>
+</div>
+<button class="w-full bg-gold text-black py-3 rounded-lg mb-3">Book Now</button>
+<button class="w-full border border-gold text-gold py-3 rounded-lg">WhatsApp</button>
+</div>
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+<div class="bg-brandBlack rounded-3xl border border-gold/20 p-4 text-center relative">
+<div class="rounded-2xl overflow-hidden mb-5 relative">
+<img src="rolls-royce-ghost.png"
+class="w-full h-52 object-cover">
+<div class="absolute top-4 right-4 bg-gold text-black text-xs font-bold px-3 py-1 rounded-full uppercase shadow-lg">
+Premium
+</div>
+</div>
+
+<h3 class="text-2xl font-serif text-gold mb-1">Rolls Royce Ghost</h3>
+<p class="text-gray-500 text-xs uppercase tracking-widest mb-6">Executive Class</p>
+
+<div class="flex flex-wrap justify-center gap-2 mb-8 text-xs">
+<span class="bg-surface px-3 py-1 rounded-full">4 Passengers</span>
+<span class="bg-surface px-3 py-1 rounded-full">Multi-Language</span>
+<span class="bg-surface px-3 py-1 rounded-full">Climate AC</span>
+<span class="bg-surface px-3 py-1 rounded-full">2 Bags</span>
+<span class="bg-surface px-3 py-1 rounded-full">Automatic</span>
+<span class="bg-surface px-3 py-1 rounded-full">Starlight Roof</span>
+</div>
+
+<button class="w-full bg-gradient-to-r from-gold to-gold-dark text-black py-3 rounded-full mb-3">
+Book Now
+</button>
+<button class="w-full border border-white/20 py-3 rounded-full">
+WhatsApp
+</button>
+
+</div>
+
+</div>
+</section>
+
+</div>
+</body>
+</html>
